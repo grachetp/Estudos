@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Pedro Grachet\\Documents\\GitHub\\Estudos-e-Cursos\\ProjetoMensageria\\ProjetoMensageria\\ProjetoMensageria.csproj": {}
+    "C:\\Users\\Pedro Grachet\\Documents\\GitHub\\Estudos\\ProjetoMensageria\\ProjetoMensageria\\ProjetoMensageria.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Pedro Grachet\\Documents\\GitHub\\Estudos-e-Cursos\\ProjetoMensageria\\ProjetoMensageria\\ProjetoMensageria.csproj": {
+    "C:\\Users\\Pedro Grachet\\Documents\\GitHub\\Estudos\\ProjetoMensageria\\ProjetoMensageria\\ProjetoMensageria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Pedro Grachet\\Documents\\GitHub\\Estudos-e-Cursos\\ProjetoMensageria\\ProjetoMensageria\\ProjetoMensageria.csproj",
+        "projectUniqueName": "C:\\Users\\Pedro Grachet\\Documents\\GitHub\\Estudos\\ProjetoMensageria\\ProjetoMensageria\\ProjetoMensageria.csproj",
         "projectName": "ProjetoMensageria",
-        "projectPath": "C:\\Users\\Pedro Grachet\\Documents\\GitHub\\Estudos-e-Cursos\\ProjetoMensageria\\ProjetoMensageria\\ProjetoMensageria.csproj",
+        "projectPath": "C:\\Users\\Pedro Grachet\\Documents\\GitHub\\Estudos\\ProjetoMensageria\\ProjetoMensageria\\ProjetoMensageria.csproj",
         "packagesPath": "C:\\Users\\Pedro Grachet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Pedro Grachet\\Documents\\GitHub\\Estudos-e-Cursos\\ProjetoMensageria\\ProjetoMensageria\\obj\\",
+        "outputPath": "C:\\Users\\Pedro Grachet\\Documents\\GitHub\\Estudos\\ProjetoMensageria\\ProjetoMensageria\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

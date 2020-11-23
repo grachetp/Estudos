@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F6bCqyUhUzr71rjUcq7dKU2B57sUblpnmsuJltpItJfqkkPBtSbozLIiFCO6ORT197ZGIjD/BrWseucliOTacQ==",
+  "dgSpecHash": "aBBSfednVJESX6peiyRVkEApTSubcN1eieuHFHYUdNGtusspmfDxVp0Mu37kWI7rBRyQD8ZMtluiKBgxn5qbYw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Pedro Grachet\\Documents\\GitHub\\Estudos-e-Cursos\\ProjetoMensageria\\ProjetoMensageria\\ProjetoMensageria.csproj",
+  "projectFilePath": "C:\\Users\\Pedro Grachet\\Documents\\GitHub\\Estudos\\ProjetoMensageria\\ProjetoMensageria\\ProjetoMensageria.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Pedro Grachet\\.nuget\\packages\\microsoft.azure.amqp\\2.4.8\\microsoft.azure.amqp.2.4.8.nupkg.sha512",
     "C:\\Users\\Pedro Grachet\\.nuget\\packages\\microsoft.azure.servicebus\\5.1.0\\microsoft.azure.servicebus.5.1.0.nupkg.sha512",
