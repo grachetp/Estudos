@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% block menu %}
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+        <a class="nav-link" href="{% url 'core_home' %}">Home</a>
+    </li>
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle active" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Serviços</a>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="{% url 'core_lista_pessoas' %}">Pessoas</a>
+            <a class="dropdown-item active" href="{% url 'core_lista_veiculos' %}">Veículos</a>
+            <a class="dropdown-item" href="{% url 'core_lista_mov_rotativo' %}">Rotativo</a>
+            <a class="dropdown-item" href="{% url 'core_lista_mensalista' %}">Mensalistas</a>
+        </div>
+    </li>
+    {% if user.is_authenticated %}
+    <li class="nav-item">
+        <a class="nav-link" href="{% url 'logout' %}">Sair</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link disabled" href="#">Ola {{ user }}</a>
+    </li>
+    {% else %}
+        <li class="nav-item">
+        <a class="nav-link" href="{% url 'login' %}">Login</a>
+    </li>
+    {% endif %}
+</ul>
+{% endblock %}
+{% block main %}
+    <div class="row">
+        <div class="col-sm-12 text-center alert alert-secondary">
+            <h2>Veiculos</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="col-sm-12 text-center">
+                <h3>Cadastrar Veículos</h3>
+            </div>
+            <form action="{% url 'core_criar_veiculos' %}" method="POST" class="alert alert-primary">
+                {% csrf_token %}
+                {{ form|crispy }}
+                <div class="col-sm12 text-center">
+                    <button type="submit" class="btn btn-primary">Cadastrar</button>
+                </div>
+            </form>
+        </div>
+    <div class="col-sm-6 text-center">
+        <div class="col-sm-12">
+            <h3>Veículos Cadastrados</h3>
+        </div>
+        <table class="table">
+                <thead class="thead-dark">
+                  <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Marca</th>
+                    <th scope="col">Placa</th>
+                    <th scope="col">Cor</th>
+                    <th scope="col"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                {% for veiculo in veiculos %}
+                    
+                        <tr>
+                            <th scope="row">{{ veiculo.id }}</th>
+                            <td>{{ veiculo.marca }}</td>
+                            <td>{{ veiculo.placa }}</td>
+                            <td>+{{ veiculo.cor }}</td>
+                            <td>
+                                <a href="{% url 'core_update_veiculos' veiculo.id %}">
+                                <button class="btn btn-primary">
+                                    Editar
+                                </button>
+                            </a>
+                            </td>
+                        </tr>
+                    
+                {% endfor %}
+                </tbody>
+              </table>
+    </div>
+{% endblock main %}

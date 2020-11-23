@@ -1,0 +1,150 @@
+<<<<<<< HEAD
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\CursoEFCore.exe
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\CursoEFCore.deps.json
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\CursoEFCore.runtimeconfig.json
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\CursoEFCore.runtimeconfig.dev.json
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\CursoEFCore.dll
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\CursoEFCore.pdb
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\obj\Debug\netcoreapp3.1\CursoEFCore.csprojAssemblyReference.cache
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\obj\Debug\netcoreapp3.1\CursoEFCore.AssemblyInfoInputs.cache
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\obj\Debug\netcoreapp3.1\CursoEFCore.AssemblyInfo.cs
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\obj\Debug\netcoreapp3.1\CursoEFCore.csproj.CoreCompileInputs.cache
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\obj\Debug\netcoreapp3.1\CursoEFCore.csproj.CopyComplete
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\obj\Debug\netcoreapp3.1\CursoEFCore.dll
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\obj\Debug\netcoreapp3.1\CursoEFCore.pdb
+C:\Users\Pedro Grachet\Desktop\Curso de EF Core - Desenvolvedor.io\CursoEFCoreCA\obj\Debug\netcoreapp3.1\CursoEFCore.genruntimeconfig.cache
+=======
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\CursoEFCore.exe
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\CursoEFCore.deps.json
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\CursoEFCore.runtimeconfig.json
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\CursoEFCore.runtimeconfig.dev.json
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\CursoEFCore.dll
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\CursoEFCore.pdb
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\obj\Debug\netcoreapp3.1\CursoEFCore.csprojAssemblyReference.cache
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\obj\Debug\netcoreapp3.1\CursoEFCore.AssemblyInfoInputs.cache
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\obj\Debug\netcoreapp3.1\CursoEFCore.AssemblyInfo.cs
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\obj\Debug\netcoreapp3.1\CursoEFCore.csproj.CoreCompileInputs.cache
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\obj\Debug\netcoreapp3.1\CursoEFCore.csproj.CopyComplete
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\obj\Debug\netcoreapp3.1\CursoEFCore.dll
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\obj\Debug\netcoreapp3.1\CursoEFCore.pdb
+C:\Users\Raynara Grachet\source\repos\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\obj\Debug\netcoreapp3.1\CursoEFCore.genruntimeconfig.cache
+>>>>>>> 9fcf02cff9ef9aaed2f6929a13c784549c2f8f1a
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\CursoEFCore.exe
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\CursoEFCore.deps.json
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\CursoEFCore.runtimeconfig.json
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\CursoEFCore.runtimeconfig.dev.json
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\CursoEFCore.dll
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\CursoEFCore.pdb
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\obj\Debug\netcoreapp3.1\CursoEFCore.csprojAssemblyReference.cache
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\obj\Debug\netcoreapp3.1\CursoEFCore.AssemblyInfoInputs.cache
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\obj\Debug\netcoreapp3.1\CursoEFCore.AssemblyInfo.cs
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\obj\Debug\netcoreapp3.1\CursoEFCore.csproj.CoreCompileInputs.cache
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\obj\Debug\netcoreapp3.1\CursoEFCore.csproj.CopyComplete
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\obj\Debug\netcoreapp3.1\CursoEFCore.dll
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\obj\Debug\netcoreapp3.1\CursoEFCore.pdb
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\obj\Debug\netcoreapp3.1\CursoEFCore.genruntimeconfig.cache
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Console.dll
+C:\Users\Pedro Grachet\Desktop\Curso-EF-Core-3.1-Desenvolvedor.io\CursoEFCoreCA\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll

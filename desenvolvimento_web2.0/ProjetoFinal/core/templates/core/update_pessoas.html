@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% block main %}
+    <div class="row">
+        <div class="col-sm-12 text-center">
+            <h2>Atualizando Pessoa: {{ pessoa }}</h2>
+        </div>
+    </div>
+    <div class="row justify-content-md-center">
+        <div class="col-sm-4">
+            <form action="{% url 'core_update_pessoas' pessoa.id %}" method="POST" class="alert alert-primary">
+                {% csrf_token %}
+                {{ form|crispy }}
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Atualizar</button>
+                    <a href="{% url 'core_delete_pessoas' pessoa.id %}" class="btn btn-danger">Deletar</a>
+                </div>
+            </form>
+        </div>
+    </div>
+{% endblock main %}

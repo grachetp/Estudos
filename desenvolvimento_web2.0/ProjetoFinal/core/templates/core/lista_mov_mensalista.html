@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% block main %}
+    <div class="row">
+        <div class="col-sm-12 text-center alert alert-secondary">
+            <h2>Movimentos dos Mensalistas</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="col-sm-12 text-center">
+                <h3>Cadastrar Movimento dos Mensalistas</h3>
+            </div>
+            <form class="alert alert-primary" action="{% url 'core_cria_mov-mensalista' %}" method="POST">
+                    {% csrf_token %}
+                    {{ form|crispy }}
+                    <div class="col-sm-12 text-center">
+                        <button class="btn btn-primary" type="submit">Cadastrar</button>
+                    </div>
+            </form>
+        </div>
+        <div class="col-sm-6 text-center">
+            <div class="col-sm-12">
+                <h3>Movimento dos Mensalistas Cadastrados</h3>
+            </div>
+            <ul class="list-unstyled list-group">
+                {% for mov_mensalista in mov_mensalistas %}
+                    <li class="list-group-item">
+                        <a href="{% url 'core_update_mov-mensalista' mov_mensalista.id %}">{{ mov_mensalista.mensalista }} - {{ mov_mensalista.data_pagamento }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+{% endblock %}

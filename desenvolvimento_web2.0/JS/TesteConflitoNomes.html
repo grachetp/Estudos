@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	function fora() {
+	   var x = 10;
+	   function dentro(x) {
+	      return x;
+	   }
+	   return dentro;
+	}
+	result = fora()(20); // retorna 20 em vez de 10
+
+	document.write(result);
+</script>
+</body>
+</html>

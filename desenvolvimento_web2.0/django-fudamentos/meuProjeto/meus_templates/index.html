@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block main %}
+
+    <h1 class="programe_facil">Ola Mundo</h1>
+
+    <ul>
+        <li>item 1</li>
+        <li>item 1</li>
+        <li>item 1</li>
+        <li>item 1</li>
+        <li>item 1</li>
+    </ul>
+
+    <p>Condicional</p>
+    {% if sexo == 'm' %}
+        Olá senhor, {{ nome }}
+    {% elif sexo == 'f' %}
+        Olá senhora, {{ nome }}
+    {% else %}
+        Olá {{ nome }}
+    {% endif %}
+    <br>
+    <br>
+    <p>Loops</p>
+
+    <ul>
+    {% for pessoa in lista %}
+
+        {% if pessoa.sexo == 'm' %}
+            <li>Olá senhor, {{ pessoa.nome }}</li>
+        {% elif pessoa.sexo == 'f' %}
+            <li>Olá senhora, {{ pessoa.nome }}</li>
+        {% else %}
+            <li>Olá {{ pessoa.nome }}</li>
+        {% endif %}
+
+    {% endfor %}
+    </ul>
+
+    <button class="btn btn-main" onclick="olaMundo()">Clieque aqui</button>
+
+{% endblock %}
+
+{% block footer %}
+    {% include 'footer.html' with pnome=nome %}
+{% endblock %}
