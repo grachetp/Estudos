@@ -32,9 +32,13 @@ namespace TestesUnitariosMOQ
     [Fact]
     public void CadastrarProduto_Erro()
     {
-      var prod =  new
+      var prod = new Produto("Fanta Laranja", 5.00);
 
-        //Criar o teste aqui
+      _cadastrarProdutos.Setup(cadastro => cadastro.Cadastrar(null)).Returns(prod);
+
+      var result = _testeteste.CadastraProduto(prod);
+
+      Assert.True(result == false);
     }
   }
 }
