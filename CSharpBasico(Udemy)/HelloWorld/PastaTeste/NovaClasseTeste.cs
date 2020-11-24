@@ -2,25 +2,34 @@
 
 namespace HelloWorld.PastaTeste
 {
-    class NovaClasseTeste
+    public static class NovaClasseTeste
     {
-        public void escreverNaTela()
+        public static void escreverNaTela()
         {
-            int x = 1;
-
-            switch (x)
+            switch (DateTime.Now.DayOfWeek)
             {
-                case 1:
-                    Console.WriteLine("O valor de x é 1");
+                case DayOfWeek.Sunday:
+                    Console.WriteLine("Domingo");
                     break;
-                case 2:
-                    Console.WriteLine("O valor de x é 2");
+                case DayOfWeek.Monday:
+                    Console.WriteLine("Segunda");
                     break;
-                case 3:
-                    Console.WriteLine("O valor de x é 3");
+                case DayOfWeek.Tuesday:
+                    Console.WriteLine("Terça Feira");
+                    break;
+                case DayOfWeek.Wednesday:
+                    Console.WriteLine("Quarta Feira");
+                    break;
+                case DayOfWeek.Thursday:
+                    Console.WriteLine("Quinta Feira");
+                    break;
+                case DayOfWeek.Friday:
+                    Console.WriteLine("Sexta Feira");
+                    break;
+                case DayOfWeek.Saturday:
+                    Console.WriteLine("Sábado");
                     break;
                 default:
-                    Console.WriteLine("O valor não está entre 1 e 3");
                     break;
             }
         }

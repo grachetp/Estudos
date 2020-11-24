@@ -1,4 +1,5 @@
 ﻿using System;
+using HelloWorld.PastaTeses.NovaClasseTeste;
 
 namespace HelloWorld
 {
@@ -7,6 +8,7 @@ namespace HelloWorld
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            escreverNaTela();
         }
     }
 }
