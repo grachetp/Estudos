@@ -4,7 +4,6 @@ using Domain.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Data.Repository
@@ -21,36 +20,17 @@ namespace Data.Repository
             _dataset = _context.Set<T>();
         }
 
-        public async Task<bool> DeleteAsync(Guid id)
-        {
-            try
-            {
-                var result = await _dataset.SingleOrDefaultAsync(p => p.Id.Equals(id));
-                if (result == null)
-                    return false;
-
-                _dataset.Remove(result);
-                await _context.SaveChangesAsync();
-                return true;
-            }
-            catch (Exception ex)
-            {
-
-                throw ex;
-            }
-        }
-
         public async Task<T> InsertAsync(T item)
         {
             try
             {
-                if(item.Id == Guid.Empty)
+                if (item.Id == Guid.Empty)
                 {
                     item.Id = Guid.NewGuid();
                 }
 
                 item.CreatedAt = DateTime.UtcNow;
-                
+
                 _dataset.Add(item);
 
                 await _context.SaveChangesAsync();
@@ -61,6 +41,11 @@ namespace Data.Repository
                 throw ex;
             }
             return item;
+        }
+
+        public async Task<bool> ExistAsync(Guid id)
+        {
+            return await _dataset.AnyAsync(p => p.Id.Equals(id));
         }
 
         public Task<T> SelectAsync(Guid id)
@@ -95,6 +80,25 @@ namespace Data.Repository
                 throw ex;
             }
             return item;
+        }
+
+        public async Task<bool> DeleteAsync(Guid id)
+        {
+            try
+            {
+                var result = await _dataset.SingleOrDefaultAsync(p => p.Id.Equals(id));
+                if (result == null)
+                    return false;
+
+                _dataset.Remove(result);
+                await _context.SaveChangesAsync();
+                return true;
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
         }
     }
 }

@@ -1,9 +1,6 @@
 ﻿using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Data.Mapping
 {
@@ -13,7 +10,7 @@ namespace Data.Mapping
         {
             builder.ToTable("User");
             builder.HasKey(p => p.Id);
-            
+
             builder.HasIndex(p => p.Email).IsUnique();
 
             builder.Property(u => u.Name).IsRequired().HasMaxLength(60);
