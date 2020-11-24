@@ -1,0 +1,9 @@
+C:\Users\Pedro Grachet\Documents\GitHub\Estudos\CSharpBasico(Udemy)\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
+C:\Users\Pedro Grachet\Documents\GitHub\Estudos\CSharpBasico(Udemy)\Domain\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\Pedro Grachet\Documents\GitHub\Estudos\CSharpBasico(Udemy)\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\Pedro Grachet\Documents\GitHub\Estudos\CSharpBasico(Udemy)\Domain\obj\Debug\netcoreapp3.1\Domain.csprojAssemblyReference.cache
+C:\Users\Pedro Grachet\Documents\GitHub\Estudos\CSharpBasico(Udemy)\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
+C:\Users\Pedro Grachet\Documents\GitHub\Estudos\CSharpBasico(Udemy)\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
+C:\Users\Pedro Grachet\Documents\GitHub\Estudos\CSharpBasico(Udemy)\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Pedro Grachet\Documents\GitHub\Estudos\CSharpBasico(Udemy)\Domain\obj\Debug\netcoreapp3.1\Domain.dll
+C:\Users\Pedro Grachet\Documents\GitHub\Estudos\CSharpBasico(Udemy)\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
