@@ -7,3 +7,12 @@ C:\Users\Pedro Grachet\Documents\GitHub\Estudos\CSharpBasico(Udemy)\Service\obj\
 C:\Users\Pedro Grachet\Documents\GitHub\Estudos\CSharpBasico(Udemy)\Service\obj\Debug\netcoreapp3.1\Service.dll
 C:\Users\Pedro Grachet\Documents\GitHub\Estudos\CSharpBasico(Udemy)\Service\obj\Debug\netcoreapp3.1\Service.pdb
 C:\Users\Pedro Grachet\Documents\GitHub\Estudos\CSharpBasico(Udemy)\Service\obj\Debug\netcoreapp3.1\Service.csprojAssemblyReference.cache
+C:\Users\Raynara Grachet\source\repos\Estudos\CSharpBasico(Udemy)\Service\bin\Debug\netcoreapp3.1\Service.deps.json
+C:\Users\Raynara Grachet\source\repos\Estudos\CSharpBasico(Udemy)\Service\bin\Debug\netcoreapp3.1\Service.dll
+C:\Users\Raynara Grachet\source\repos\Estudos\CSharpBasico(Udemy)\Service\bin\Debug\netcoreapp3.1\Service.pdb
+C:\Users\Raynara Grachet\source\repos\Estudos\CSharpBasico(Udemy)\Service\obj\Debug\netcoreapp3.1\Service.csprojAssemblyReference.cache
+C:\Users\Raynara Grachet\source\repos\Estudos\CSharpBasico(Udemy)\Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfoInputs.cache
+C:\Users\Raynara Grachet\source\repos\Estudos\CSharpBasico(Udemy)\Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfo.cs
+C:\Users\Raynara Grachet\source\repos\Estudos\CSharpBasico(Udemy)\Service\obj\Debug\netcoreapp3.1\Service.csproj.CoreCompileInputs.cache
+C:\Users\Raynara Grachet\source\repos\Estudos\CSharpBasico(Udemy)\Service\obj\Debug\netcoreapp3.1\Service.dll
+C:\Users\Raynara Grachet\source\repos\Estudos\CSharpBasico(Udemy)\Service\obj\Debug\netcoreapp3.1\Service.pdb
