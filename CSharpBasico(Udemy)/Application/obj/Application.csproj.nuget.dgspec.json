@@ -97,7 +97,17 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Pedro Grachet\\Documents\\GitHub\\Estudos\\CSharpBasico(Udemy)\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\Pedro Grachet\\Documents\\GitHub\\Estudos\\CSharpBasico(Udemy)\\Data\\Data.csproj"
+              },
+              "C:\\Users\\Pedro Grachet\\Documents\\GitHub\\Estudos\\CSharpBasico(Udemy)\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Pedro Grachet\\Documents\\GitHub\\Estudos\\CSharpBasico(Udemy)\\Domain\\Domain.csproj"
+              },
+              "C:\\Users\\Pedro Grachet\\Documents\\GitHub\\Estudos\\CSharpBasico(Udemy)\\Service\\Service.csproj": {
+                "projectPath": "C:\\Users\\Pedro Grachet\\Documents\\GitHub\\Estudos\\CSharpBasico(Udemy)\\Service\\Service.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -108,6 +118,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -289,9 +305,6 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Pedro Grachet\\Documents\\GitHub\\Estudos\\CSharpBasico(Udemy)\\CrossCutting\\CrossCutting.csproj": {
-                "projectPath": "C:\\Users\\Pedro Grachet\\Documents\\GitHub\\Estudos\\CSharpBasico(Udemy)\\CrossCutting\\CrossCutting.csproj"
-              },
               "C:\\Users\\Pedro Grachet\\Documents\\GitHub\\Estudos\\CSharpBasico(Udemy)\\Data\\Data.csproj": {
                 "projectPath": "C:\\Users\\Pedro Grachet\\Documents\\GitHub\\Estudos\\CSharpBasico(Udemy)\\Data\\Data.csproj"
               },

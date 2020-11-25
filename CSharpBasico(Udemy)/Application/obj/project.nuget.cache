@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "FXF2ZK+VXDFF2LjydIoTqFaPDasNzxdkYJo1fpGIkw6uFTwXAG1Wd+5XQYVXo7DGp5HP4Aiue/PYRAqGVs3SYg==",
+  "dgSpecHash": "1gGFnp6qJuWqud83StMSx5oXChg6sTMnRGyOWT7VdO8A6MBmsIZex+8zB7J8F95uupQLY5XUgObCw3LcKhGbRw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Pedro Grachet\\Documents\\GitHub\\Estudos\\CSharpBasico(Udemy)\\Application\\Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Pedro Grachet\\.nuget\\packages\\automapper\\8.1.1\\automapper.8.1.1.nupkg.sha512",
+    "C:\\Users\\Pedro Grachet\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\6.1.1\\automapper.extensions.microsoft.dependencyinjection.6.1.1.nupkg.sha512",
     "C:\\Users\\Pedro Grachet\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Pedro Grachet\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\Pedro Grachet\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
