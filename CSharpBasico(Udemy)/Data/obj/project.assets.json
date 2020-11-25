@@ -5436,23 +5436,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Raynara Grachet\\.nuget\\packages\\": {},
+    "C:\\Users\\Pedro Grachet\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Raynara Grachet\\source\\repos\\Estudos\\CSharpBasico(Udemy)\\Data\\Data.csproj",
+      "projectUniqueName": "C:\\Users\\Pedro Grachet\\Documents\\GitHub\\Estudos\\CSharpBasico(Udemy)\\Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "C:\\Users\\Raynara Grachet\\source\\repos\\Estudos\\CSharpBasico(Udemy)\\Data\\Data.csproj",
-      "packagesPath": "C:\\Users\\Raynara Grachet\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Raynara Grachet\\source\\repos\\Estudos\\CSharpBasico(Udemy)\\Data\\obj\\",
+      "projectPath": "C:\\Users\\Pedro Grachet\\Documents\\GitHub\\Estudos\\CSharpBasico(Udemy)\\Data\\Data.csproj",
+      "packagesPath": "C:\\Users\\Pedro Grachet\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Pedro Grachet\\Documents\\GitHub\\Estudos\\CSharpBasico(Udemy)\\Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Raynara Grachet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Pedro Grachet\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5465,8 +5465,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Raynara Grachet\\source\\repos\\Estudos\\CSharpBasico(Udemy)\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\Raynara Grachet\\source\\repos\\Estudos\\CSharpBasico(Udemy)\\Domain\\Domain.csproj"
+            "C:\\Users\\Pedro Grachet\\Documents\\GitHub\\Estudos\\CSharpBasico(Udemy)\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Pedro Grachet\\Documents\\GitHub\\Estudos\\CSharpBasico(Udemy)\\Domain\\Domain.csproj"
             }
           }
         }

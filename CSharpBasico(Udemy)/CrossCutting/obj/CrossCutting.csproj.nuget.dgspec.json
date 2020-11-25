@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Raynara Grachet\\source\\repos\\Estudos\\CSharpBasico(Udemy)\\CrossCutting\\CrossCutting.csproj": {}
+    "C:\\Users\\Pedro Grachet\\Documents\\GitHub\\Estudos\\CSharpBasico(Udemy)\\CrossCutting\\CrossCutting.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Raynara Grachet\\source\\repos\\Estudos\\CSharpBasico(Udemy)\\CrossCutting\\CrossCutting.csproj": {
+    "C:\\Users\\Pedro Grachet\\Documents\\GitHub\\Estudos\\CSharpBasico(Udemy)\\CrossCutting\\CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Raynara Grachet\\source\\repos\\Estudos\\CSharpBasico(Udemy)\\CrossCutting\\CrossCutting.csproj",
+        "projectUniqueName": "C:\\Users\\Pedro Grachet\\Documents\\GitHub\\Estudos\\CSharpBasico(Udemy)\\CrossCutting\\CrossCutting.csproj",
         "projectName": "CrossCutting",
-        "projectPath": "C:\\Users\\Raynara Grachet\\source\\repos\\Estudos\\CSharpBasico(Udemy)\\CrossCutting\\CrossCutting.csproj",
-        "packagesPath": "C:\\Users\\Raynara Grachet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Raynara Grachet\\source\\repos\\Estudos\\CSharpBasico(Udemy)\\CrossCutting\\obj\\",
+        "projectPath": "C:\\Users\\Pedro Grachet\\Documents\\GitHub\\Estudos\\CSharpBasico(Udemy)\\CrossCutting\\CrossCutting.csproj",
+        "packagesPath": "C:\\Users\\Pedro Grachet\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pedro Grachet\\Documents\\GitHub\\Estudos\\CSharpBasico(Udemy)\\CrossCutting\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Raynara Grachet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Pedro Grachet\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

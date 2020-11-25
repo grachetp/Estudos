@@ -10,11 +10,8 @@ namespace Data.Mapping
         {
             builder.ToTable("User");
             builder.HasKey(p => p.Id);
-
             builder.HasIndex(p => p.Email).IsUnique();
-
             builder.Property(u => u.Name).IsRequired().HasMaxLength(60);
-
             builder.Property(u => u.Email).HasMaxLength(100);
         }
     }
