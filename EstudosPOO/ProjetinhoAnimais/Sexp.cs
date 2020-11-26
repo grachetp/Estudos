@@ -4,11 +4,9 @@ using System.Text;
 
 namespace ProjetinhoAnimais
 {
-    public class Morcego : Mamifero
+    public enum Sexo
     {
-        public void Voar()
-        {
-
-        }
+       Masculino = 1,
+       Feminino = 2
     }
 }

@@ -4,9 +4,9 @@ using System.Text;
 
 namespace ProjetinhoAnimais
 {
-    public class Morcego : Mamifero
+    public class Baleia : Mamifero
     {
-        public void Voar()
+        public void Nadar()
         {
 
         }
