@@ -8,8 +8,14 @@ namespace ProjetinhoAnimais
     {
         public void Acordar()
         {
-
+            Console.WriteLine("Acordar!");
         }
+
+        public void Dormir()
+        {
+            Console.WriteLine("Dormir");
+        }
+
         public abstract void Comer()
         {
 
