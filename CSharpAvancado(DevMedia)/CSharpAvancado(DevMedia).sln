@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2 - ValueRef", "2 - ValueRe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3 - EstruturasCSharp", "3 - EstruturasCSharp\3 - EstruturasCSharp.csproj", "{683F3E0B-F629-45AD-9ABB-63C491F90828}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4 - Construtores", "4 - Construtores\4 - Construtores.csproj", "{A4A6A824-F449-4DF8-BA7E-0B75BF2EBB41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{683F3E0B-F629-45AD-9ABB-63C491F90828}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{683F3E0B-F629-45AD-9ABB-63C491F90828}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{683F3E0B-F629-45AD-9ABB-63C491F90828}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4A6A824-F449-4DF8-BA7E-0B75BF2EBB41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4A6A824-F449-4DF8-BA7E-0B75BF2EBB41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4A6A824-F449-4DF8-BA7E-0B75BF2EBB41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4A6A824-F449-4DF8-BA7E-0B75BF2EBB41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
