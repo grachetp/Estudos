@@ -31,7 +31,6 @@ namespace PortalDeNoticias.Models
                 Data = DateTime.Today,
                 Conteudo = "Lorem ipsim dolor sit amet, consectetur asipiscing elit, Maecenas facibus torrot id turpis ultrices tincidunt. Ptoin eu abacaxi"
             });
-
             noticias.Add(new Noticia
             {
                 Id = 2,
@@ -40,7 +39,6 @@ namespace PortalDeNoticias.Models
                 Data = DateTime.Today.AddDays(-15),
                 Conteudo = "Lorem ipsim dolor sit amet, consectetur asipiscing elit, Maecenas facibus torrot id turpis ultrices tincidunt. Ptoin eu abacaxi"
             });
-
             noticias.Add(new Noticia
             {
                 Id = 3,
@@ -49,7 +47,6 @@ namespace PortalDeNoticias.Models
                 Data = DateTime.Today.AddDays(-10),
                 Conteudo = "Lorem ipsim dolor sit amet, consectetur asipiscing elit, Maecenas facibus torrot id turpis ultrices tincidunt. Ptoin eu abacaxi"
             });
-
             noticias.Add(new Noticia
             {
                 Id = 4,
@@ -58,7 +55,6 @@ namespace PortalDeNoticias.Models
                 Data = DateTime.Today.AddDays(-25),
                 Conteudo = "Lorem ipsim dolor sit amet, consectetur asipiscing elit, Maecenas facibus torrot id turpis ultrices tincidunt. Ptoin eu abacaxi"
             });
-
             noticias.Add(new Noticia
             {
                 Id = 5,
