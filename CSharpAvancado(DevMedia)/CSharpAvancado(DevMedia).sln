@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1 - ValueRef", "1 - ValueRef\1 - ValueRef.csproj", "{A49217C7-3093-4FCB-A07A-35732AD75A62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1 - ValueRef", "1 - ValueRef\1 - ValueRef.csproj", "{A49217C7-3093-4FCB-A07A-35732AD75A62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2 - ValueRef", "2 - ValueRef\2 - ValueRef.csproj", "{9FB3DA73-2E2D-41FC-BDDB-14DA0289E56C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2 - ValueRef", "2 - ValueRef\2 - ValueRef.csproj", "{9FB3DA73-2E2D-41FC-BDDB-14DA0289E56C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3 - EstruturasCSharp", "3 - EstruturasCSharp\3 - EstruturasCSharp.csproj", "{683F3E0B-F629-45AD-9ABB-63C491F90828}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3 - EstruturasCSharp", "3 - EstruturasCSharp\3 - EstruturasCSharp.csproj", "{683F3E0B-F629-45AD-9ABB-63C491F90828}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4 - Construtores", "4 - Construtores\4 - Construtores.csproj", "{A4A6A824-F449-4DF8-BA7E-0B75BF2EBB41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4 - Construtores", "4 - Construtores\4 - Construtores.csproj", "{A4A6A824-F449-4DF8-BA7E-0B75BF2EBB41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5 - GetSet", "GetSet\5 - GetSet.csproj", "{583A3353-998F-4400-A6A8-58A317B3489B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{A4A6A824-F449-4DF8-BA7E-0B75BF2EBB41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4A6A824-F449-4DF8-BA7E-0B75BF2EBB41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4A6A824-F449-4DF8-BA7E-0B75BF2EBB41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{583A3353-998F-4400-A6A8-58A317B3489B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{583A3353-998F-4400-A6A8-58A317B3489B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{583A3353-998F-4400-A6A8-58A317B3489B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{583A3353-998F-4400-A6A8-58A317B3489B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

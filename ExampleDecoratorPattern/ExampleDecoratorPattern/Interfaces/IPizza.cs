@@ -2,6 +2,6 @@
 {
     public interface IPizza
     {
-        string BuscaTipoPizza();
+        string BuscarTipoPizza();
     }
 }
