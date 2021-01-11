@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6 - Propriedades", "6 - Pro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7 - PropriedadesAutomaticas", "7 - PropriedadesAutomaticas\7 - PropriedadesAutomaticas.csproj", "{F8D868E0-E8D6-435E-AEC2-5956CA2DD046}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8 - ObjectsInitializers", "8 - ObjectsInitializers\8 - ObjectsInitializers.csproj", "{F04B9C02-E010-413F-82BE-E30E4FED1197}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{F8D868E0-E8D6-435E-AEC2-5956CA2DD046}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8D868E0-E8D6-435E-AEC2-5956CA2DD046}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8D868E0-E8D6-435E-AEC2-5956CA2DD046}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F04B9C02-E010-413F-82BE-E30E4FED1197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F04B9C02-E010-413F-82BE-E30E4FED1197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F04B9C02-E010-413F-82BE-E30E4FED1197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F04B9C02-E010-413F-82BE-E30E4FED1197}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
