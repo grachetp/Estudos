@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4 - Construtores", "4 - Con
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5 - GetSet", "GetSet\5 - GetSet.csproj", "{583A3353-998F-4400-A6A8-58A317B3489B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6 - Propriedades", "6 - Propriedades\6 - Propriedades.csproj", "{73550CB6-DDC5-430D-A57A-9A78D053DDBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6 - Propriedades", "6 - Propriedades\6 - Propriedades.csproj", "{73550CB6-DDC5-430D-A57A-9A78D053DDBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7 - PropriedadesAutomaticas", "7 - PropriedadesAutomaticas\7 - PropriedadesAutomaticas.csproj", "{F8D868E0-E8D6-435E-AEC2-5956CA2DD046}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{73550CB6-DDC5-430D-A57A-9A78D053DDBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73550CB6-DDC5-430D-A57A-9A78D053DDBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73550CB6-DDC5-430D-A57A-9A78D053DDBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8D868E0-E8D6-435E-AEC2-5956CA2DD046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8D868E0-E8D6-435E-AEC2-5956CA2DD046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8D868E0-E8D6-435E-AEC2-5956CA2DD046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8D868E0-E8D6-435E-AEC2-5956CA2DD046}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
