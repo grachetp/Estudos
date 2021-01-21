@@ -21,13 +21,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8 - ObjectsInitializers", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9 - Inferencia", "9 - Inferencia\9 - Inferencia.csproj", "{F3B41402-6FC1-4E04-920D-5B56C0CFEDAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10 - Estáticos", "10 - Estáticos\10 - Estáticos.csproj", "{9BC844E8-3BB2-4C6D-B55E-7EAF5E71F0F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10 - Estáticos", "10 - Estáticos\10 - Estáticos.csproj", "{9BC844E8-3BB2-4C6D-B55E-7EAF5E71F0F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11 - Metodos de Extensao", "11 - Metodos de Extensao\11 - Metodos de Extensao.csproj", "{429AFE32-922B-4BB3-AD02-B6B0A8947AC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11 - Metodos de Extensao", "11 - Metodos de Extensao\11 - Metodos de Extensao.csproj", "{429AFE32-922B-4BB3-AD02-B6B0A8947AC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic", "Generic\Generic.csproj", "{49D80A5C-50C4-45D4-958D-8F4409C8BD30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generic", "Generic\Generic.csproj", "{49D80A5C-50C4-45D4-958D-8F4409C8BD30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paramentros Nomeados", "Paramentros Nomeados\Paramentros Nomeados.csproj", "{44FEA183-5FB0-41C8-9EFF-959DC11A04F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Paramentros Nomeados", "Paramentros Nomeados\Paramentros Nomeados.csproj", "{44FEA183-5FB0-41C8-9EFF-959DC11A04F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegacao", "Delegacao\Delegacao.csproj", "{CD6FE0CD-5F8C-451E-B2EE-F9A03799DA6F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{44FEA183-5FB0-41C8-9EFF-959DC11A04F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44FEA183-5FB0-41C8-9EFF-959DC11A04F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44FEA183-5FB0-41C8-9EFF-959DC11A04F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD6FE0CD-5F8C-451E-B2EE-F9A03799DA6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD6FE0CD-5F8C-451E-B2EE-F9A03799DA6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD6FE0CD-5F8C-451E-B2EE-F9A03799DA6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD6FE0CD-5F8C-451E-B2EE-F9A03799DA6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
