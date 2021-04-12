@@ -16,8 +16,8 @@ namespace ProductCatalog.Data
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-      optionsBuilder.UseSqlServer("Server=GRACHET-PC;Database=ApiDB;User Id=sa;Password=graxinha;");
-    }
+            optionsBuilder.UseSqlServer("Server=localhost;Database=TodoAPI;Trusted_Connection=True");
+        }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
