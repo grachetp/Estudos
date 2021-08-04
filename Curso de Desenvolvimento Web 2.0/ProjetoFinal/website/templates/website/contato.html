@@ -1,0 +1,37 @@
+{% extends 'website/base.html' %}
+{% load static %}
+{% block main %}
+<div class="row row-space">
+	<p>{{ mensagem }}</p>
+	<div class="col-6">
+		<form method="POST">
+			{% csrf_token %}
+			<div class="form-row">
+				<div class="form-group col-md-6">
+					<label for="inputEmail">Email</label>
+					<input type="email" class="form-control" id="inputEmail" placeholder="Email" name="email">
+				</div>
+				<div class="form-group col-md-6">
+					<label for="inputNome">Nome</label>
+					<input type="text" class="form-control" id="inputNome" placeholder="Password" name="nome">
+				</div>
+			</div>
+			<div class="form-row">
+				<div class="form-group col-md-12">
+					<label for="inputCidade">Cidade</label>
+					<input type="text" class="form-control" id="inputCidade" name="cidade">
+				</div>
+			</div>
+			<div class="form-row col-12">
+				<button type="submit" class="btn btn-primary">Enviar</button>
+			</div>
+		</form>
+	</div>
+	<div class="col-6">
+	<p>Dapibus per donec nunc conubia nulla sagittis aliquam erat, diam litora turpis maecenas suspendisse dictumst imperdiet placerat, curae feugiat augue tincidunt dapibus justo aenean. nisi maecenas ullamcorper netus sociosqu ipsum eros inceptos varius at faucibus ipsum egestas fames cras lectus, consequat vulputate felis tempor placerat luctus elit magna dictumst metus dolor sit viverra. hendrerit massa duis hac luctus egestas quisque nulla sagittis, posuere gravida praesent semper nibh cursus elit sem, bibendum potenti nunc eget class potenti scelerisque. fusce nisl litora ad massa tempor elit magna</p>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d3843.0586590427856!2d-56.10813518550401!3d-15.588514489179436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e0!4m0!4m5!1s0x939db1845fa211ff%3A0x5813fa5e0fb964a1!2sAv.+Sen.+Filinto+M%C3%BCller%2C+953+-+Quilombo%2C+Cuiab%C3%A1+-+MT%2C+78043-400!3m2!1d-15.588514499999999!2d-56.105946499999995!5e0!3m2!1spt-BR!2sbr!4v1562713100104!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
+
+	</iframe>
+	</div>
+</div>
+{% endblock %}

@@ -1,0 +1,102 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% block menu %}
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'core_home' %}">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Serviços</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="{% url 'core_lista_pessoas' %}">Pessoas</a>
+                <a class="dropdown-item" href="{% url 'core_lista_veiculos' %}">Veículos</a>
+                <a class="dropdown-item" href="{% url 'core_lista_mov_rotativo' %}">Rotativo</a>
+                <a class="dropdown-item active" href="{% url 'core_lista_mensalista' %}">Mensalistas</a>
+            </div>
+        </li>
+        {% if user.is_authenticated %}
+    <li class="nav-item">
+        <a class="nav-link" href="{% url 'logout' %}">Sair</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link disabled" href="#">Ola {{ user }}</a>
+    </li>
+    {% else %}
+        <li class="nav-item">
+        <a class="nav-link" href="{% url 'login' %}">Login</a>
+    </li>
+    {% endif %}
+    </ul>
+{% endblock %}
+{% block main %}
+
+    <div class="row">
+        <div class="col-sm-12 text-center alert alert-secondary">
+            <h2>Mensalistas</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="col-sm-12 text-center">
+                <h3>Cadastrar Novo Mensalistas</h3>
+            </div>
+            <form class="alert alert-primary" action="{% url 'core_cria_mensalista' %}" method="POST">
+                {% csrf_token %}
+                {{ form|crispy }}
+                <div class="col-sm-12 text-center">
+                    <button class="btn btn-primary" type="submit">Cadatrar</button>
+                </div>
+            </form>
+        </div>
+        <div class="col-sm-6 text-center">
+            <div class="col-sm-12">
+                <h3>Mensalistas Cadastrados</h3>
+            </div>
+            <table class="table">
+                    <thead class="thead-dark">
+                      <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Veiculo</th>
+                        <th scope="col">Valor do Mês</th>
+                        <th scope="col">Inicio Data</th>
+                        <th scope="col"></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    {% for mensalista in mensalistas %}
+                        
+                            <tr>
+                                <th scope="row">{{ mensalista.id }}</th>
+                                <td>{{ mensalista.veiculo }}</td>
+                                <td>{{ mensalista.valor_mes }}</td>
+                                <td>{{ mensalista.data_inicio }}</td>
+                                <td>
+                                    <a href="{% url 'core_update_mensalista' mensalista.id %}">
+                                    <button class="btn btn-primary">
+                                        Editar
+                                    </button>
+                                </a>
+                                </td>
+                            </tr>
+                        
+                    {% endfor %}
+                    </tbody>
+                  </table>
+
+            
+        </div>
+    </div>
+
+
+
+
+{% endblock main %}
+<ul class="list-unstyled list-group">
+        {% for mensalista in mensalistas %}
+        <li class="list-group-item"> 
+            <a href="{% url 'core_update_mensalista' mensalista.id %}"> 
+            {{ mensalista.veiculo }} - {{ mensalista.data_inicio }}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>

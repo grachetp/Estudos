@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% block menu %}
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link" href="{% url 'core_home' %}">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Serviços</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="{% url 'core_lista_pessoas' %}">Pessoas</a>
+                <a class="dropdown-item" href="{% url 'core_lista_veiculos' %}">Veículos</a>
+                <a class="dropdown-item active" href="{% url 'core_lista_mov_rotativo' %}">Rotativo</a>
+                <a class="dropdown-item" href="{% url 'core_lista_mensalista' %}">Mensalistas</a>
+            </div>
+        </li>
+        {% if user.is_authenticated %}
+    <li class="nav-item">
+        <a class="nav-link" href="{% url 'logout' %}">Sair</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link disabled" href="#">Ola {{ user }}</a>
+    </li>
+    {% else %}
+        <li class="nav-item">
+        <a class="nav-link" href="{% url 'login' %}">Login</a>
+    </li>
+    {% endif %}
+    </ul>
+{% endblock %}
+{% block main %}
+    <div class="row">
+        <div class="col-sm-12 text-center alert alert-secondary">
+            <h2>Lista de Movimentos Rotativos</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="col-sm-12 text-center">
+                <h3>Cadastrar Movimentos Rotativos</h3>
+            </div>
+            <form action="{% url 'core_criar_mov_rotativo' %}" method="POST" class="alert alert-primary">
+                    {% csrf_token %}
+                    {{ form|crispy }}
+                    <div class="col-sm-12 text-center">
+                        <button class="btn btn-primary" type="submit">Cadastar</button>
+                    </div>
+            </form>
+        </div>
+        <div class="col-sm-6 text-center">
+            <div class="col-sm-12">
+                <h3>Movimentos Rotativos Cadastrados</h3>
+            </div>
+            <table class="table">
+                    <thead class="thead-dark">
+                      <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Checkin</th>
+                        <th scope="col">Veiculo</th>
+                        <th scope="col">Pagamento</th>
+                        <th scope="col"></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                    {% for mov in mov_rot %}
+                            <tr>
+                                <th scope="row">{{ mov.id }}</th>
+                                <td>{{ mov.checkin }}</td>
+                                <td>{{ mov.veiculo }}</td>
+                                {% if mov.pago == 1 %}
+                                    <th><input type="checkbox" aria-label="Checkbox for following text input" checked disabled></th>
+                                {% else %}
+                                    <th><input type="checkbox" aria-label="Checkbox for following text input" disabled></th>
+                                {% endif %}
+                                <td>
+                                    <a href="{% url 'core_update_mov_rotativo' mov.id %}">
+                                    <button class="btn btn-primary">
+                                        Editar
+                                    </button>
+                                </a>
+                                </td>
+                            </tr>
+                    {% endfor %}
+                    </tbody>
+                  </table>
+        </div>
+    </div>
+{% endblock %}

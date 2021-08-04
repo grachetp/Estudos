@@ -1,0 +1,1 @@
+dicionarios que foram todos escritos no terminal

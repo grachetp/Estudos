@@ -1,0 +1,9 @@
+<link rel="stylesheet" type="text/css" href=""> -> Linkar CSS na pag
+
+color: cor; -> alterar cor
+
+<style type="text/css">	
+		article {
+			color: red;	
+		}
+</style>

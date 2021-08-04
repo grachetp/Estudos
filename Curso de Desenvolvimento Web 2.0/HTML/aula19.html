@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		function salvar(){
+			if (typeof(Storage) !== "undefined") {
+				localStorage.setItem("nome", "Programe Facil")
+				localStorage.setItem("Carreiras", "Front, Back, End")
+			} else {
+				alert('Seu navegador não suporta Web Storage')
+			}
+		}
+
+		function ler(){
+			if (typeof(Storage) !== "undefined") {
+				document.getElementById("resultado").innerHTML = localStorage.getItem("Carreiras")
+			} else {
+				alert('Seu navegador não suporta Web Storage')
+			}
+		}
+		function deletar(){
+			if (typeof(Storage) !== "undefined") {
+				localStorage.removeItem("Carreiras")
+			} else {
+				alert('Seu navegador não suporta Web Storage')
+			}
+		}
+	</script>
+</head>
+<body>
+	<div id="resultado"></div>
+	<button onclick="salvar()">Salvar</button>
+	<button onclick="ler()">Ler</button>
+	<button onclick="deletar()">Deletar</button>
+</body>
+</html>

@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block menu %}
+<ul class="nav nav-tabs">
+    <li class="nav-item">
+        <a class="nav-link active" href="{% url 'core_home' %}">Home</a>
+    </li>
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Serviços</a>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="{% url 'core_lista_pessoas' %}">Pessoas</a>
+            <a class="dropdown-item" href="{% url 'core_lista_veiculos' %}">Veículos</a>
+            <a class="dropdown-item" href="{% url 'core_lista_mov_rotativo' %}">Rotativo</a>
+            <a class="dropdown-item" href="{% url 'core_lista_mensalista' %}">Mensalistas</a>
+        </div>
+    </li>
+    {% if user.is_authenticated %}
+    <li class="nav-item">
+        <a class="nav-link" href="{% url 'logout' %}">Sair</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link disabled" href="#">Ola {{ user }}</a>
+    </li>
+    {% else %}
+        <li class="nav-item">
+        <a class="nav-link" href="{% url 'login' %}">Login</a>
+    </li>
+    {% endif %}
+</ul>
+{% endblock %}
+{% block main %}
+    <div class="row">
+        <div class="col">
+            <h1>Seja Bem Vindo ao Sistema</h1>
+        </div>        
+    </div>
+
+{% endblock main %}
+<!--
+<li><a href="{% url 'core_lista_pessoas' %}">Pessoas</a></li>
+<li><a href="{% url 'core_lista_veiculos' %}">Veiculos</a></li>
+<li><a href="{% url 'core_lista_mov_rotativo' %}">Movimentos Rotativos</a></li>
+<li><a href="{% url 'core_lista_mensalista' %}">Mensalistas</a></li>
+<li><a href="{% url 'core_lista_mov_mensalista' %}">Movimento dos Mensalistas</a></li> -->

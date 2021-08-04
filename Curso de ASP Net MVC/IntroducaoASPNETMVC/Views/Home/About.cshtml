@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Arrola";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+<p>Use this area to provide additional information.</p>
+
+@{ 
+    for(int i=0; i < 5; i++)
+    {
+        <p>Item @i</p>
+    }
+}
+
+@Html.ActionLink("Clique aqui", "Listar", "Produtos")

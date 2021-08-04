@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% block main %}
+    <div class="row">
+        <div class="col-sm-12 text-center">
+            <h2>Update Movimento dos Mensalistas: {{ mov_mensalistas }}</h2>
+        </div>
+    </div>
+    <div class="row justify-content-md-center" class="alert alert-primary">
+        <div class="col-sm-4">
+            <form class="alert alert-primary" action="{% url 'core_update_mov-mensalista' mov_mensalistas.id %}" method="POST">
+                    {% csrf_token %}
+                    {{ form|crispy }}
+                    <div class="text-center">
+                        <button class="btn btn-primary" type="submit">Cadastrar</button>
+                        <a class="btn btn-danger" href="{% url 'core_delete_mov-mensalista' mov_mensalistas.id %}">Deletar</a>
+                    </div>
+                    
+            </form>
+        </div>
+    </div>
+{% endblock main %}

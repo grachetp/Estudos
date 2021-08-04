@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Exercicio</title>
+    </head>
+    <body>
+        <button id="new">Clique-me</button>
+        <div id="quadrado"></div>
+        <script>
+            var buttonElement = document.getElementById("new");
+            var squareElement = document.getElementById("quadrado");
+
+            buttonElement.onclick = function(){
+                var quadradoElement = document.createElement("div");
+                quadradoElement.style.width = "100px";
+                quadradoElement.style.height = "100px";
+                quadradoElement.style.backgroundColor = "#F00";
+
+                squareElement.appendChild(quadradoElement);
+            };
+            
+        </script>
+    </body>
+</html>

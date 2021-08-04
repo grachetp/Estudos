@@ -1,0 +1,9 @@
+﻿Models:
+Noticia
+RepositorioNoticias
+
+Controllers:
+NoticiasController
+
+Views:
+Index, Busca, Detalhes
